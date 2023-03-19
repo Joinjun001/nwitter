@@ -44,6 +44,10 @@ form {
   flex-direction: column;
 }
 
+.scrolling-content {
+  height: 1000px; /* 스크롤링 가능한 요소의 높이를 설정합니다. */
+  overflow-y: scroll; /* 세로축으로 스크롤링 가능하도록 설정합니다. */
+}
 .formInput {
   width: 100%;
   padding: 10px 20px;
